@@ -2,7 +2,7 @@ Attribute VB_Name = "Regex_Example"
 Option Explicit
 'Microsoft VBScript Regular Expressions 5.5 = True
 '===============================================
-'³‹K•\Œ»‚ğ—p‚¢‚½¬Œ÷–—á ‰p”š’PŒê‚Ì”²‚«o‚µ
+'æ­£è¦è¡¨ç¾ã‚’ç”¨ã„ãŸæˆåŠŸäº‹ä¾‹ è‹±æ•°å­—å˜èªã®æŠœãå‡ºã—
 '===============================================
 Sub Regex_Example()
     Dim i      As Integer
