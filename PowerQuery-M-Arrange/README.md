@@ -1,4 +1,5 @@
 # Power Query-m式アレンジャー
+Power Query式のステップ名とかを置き換えして簡単に整えるツールです☻
 
 # Features
 
@@ -10,43 +11,26 @@
 - フォルダ
   - PowerQuery-M-Arrange.xlsm（ファイル名は変更可）
   - source.txt（変更不可、変更する場合はVBAの変更が必要）
-  - editor
-
-# Installation
-
-Requirementで列挙したライブラリなどのインストール方法を説明する
-
-```bash
-pip install huga_package
-```
+  - editor_text.txt（システムで作られるファイル)
 
 # Usage
-
-DEMOの実行方法など、"hoge"の基本的な使い方を説明する
-
-```bash
-git clone https://github.com/hoge/~
-cd examples
-python demo.py
-```
+  1. PowerQuery-M-Arrange.xlsmをダウンロード
+  2. 同じフォルダにsource.txtを置いてね
+  3. 相対パスでデータを拾います。（怒られるパターンです）
+  4. 作られるREPLACE用テーブルに置き換えしたい文字を入れればステップ名が一括で置き換え可能ですよ！
 
 # Note
 
-注意点などがあれば書く
+詳細エディターいじったら細かい内容が崩れて、引用符"とか無造作に消えたりするから気を付けてね
 
 # Author
+DemodoriGatsuo　https://twitter.com/DemodoriGatsuo　Follow Me!
 
 作成情報を列挙する
 
-* 作成者
-* 所属
-* E-mail
+* DemodoriGatsuo
+* VBA Lovers
+* https://twitter.com/DemodoriGatsuo
 
 # License
-ライセンスを明示する
-
-"hoge" is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
-
-社内向けなら社外秘であることを明示してる
-
-"hoge" is Confidential.
+This is for All Excel Lovers!
