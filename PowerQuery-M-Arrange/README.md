@@ -7,7 +7,7 @@ Power Query式のステップ名とかを置き換えして簡単に整えるツ
 
 # Requirement
 
-構成は下記の通り\n
+構成は下記の通り
 - フォルダ
   - PowerQuery-M-Arrange.xlsm（ファイル名は変更可）
   - source.txt（変更不可、変更する場合はVBAの変更が必要）
