@@ -24,7 +24,8 @@ Power Query式のステップ名とかを置き換えして簡単に整えるツ
 詳細エディターいじったら細かい内容が崩れて、引用符"とか無造作に消えたりするから気を付けてね
 
 # Author
-DemodoriGatsuo　https://twitter.com/DemodoriGatsuo　Follow Me!
+DemodoriGatsuo　https://twitter.com/DemodoriGatsuo
+Please Follow Me!
 
 作成情報を列挙する
 
