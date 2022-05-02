@@ -3,7 +3,11 @@
 I Love Microsoft Excel
 https://www.microsoft.com/ja-jp/microsoft-365/excel
 
+
 # The Handy tool in a good mood
+I Love Microsoft Excel
+https://www.microsoft.com/ja-jp/microsoft-365/excel
+& VBA is Super Magic!!!!
 
 # DEMO
 
