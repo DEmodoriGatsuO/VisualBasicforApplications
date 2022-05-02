@@ -27,7 +27,7 @@ Microsoft Excelがあれば誰でも使えるよ！嬉しいね！
 
 # Note
 
-アクティブセル起点なので思いがけず上書きしちゃう可能性があるのでお気をつけて
+利用は自己責任で！
 
 * Author          : DEmodoriGatsuO https://github.com/DEmodoriGatsuO
 * Excel $A$1
