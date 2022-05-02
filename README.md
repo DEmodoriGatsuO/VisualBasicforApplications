@@ -1,4 +1,8 @@
 # Visual Basic for Application
+
+I Love Microsoft Excel
+https://www.microsoft.com/ja-jp/microsoft-365/excel
+
 # The Handy tool in a good mood
 
 # DEMO
