@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Productivity Memo
 ## Profile
 ### I am a Apprentice Programmer.
@@ -7,8 +8,10 @@ In principle, they are made for your own exclusive use, but you can have them co
 The reason is that the source of my information is the Internet.
 Thank you for the progress of humanity and the Internet.
 Thank you for learning. Celebrate life.
-@DemodoriGatsuo
+Translation conducted at DeepL. https://www.deepl.com/ja/translator
 
+@DemodoriGatsuo
+***
 ## My interest
 * Visual Basic for Application
 * Google Apps Script
@@ -21,6 +24,64 @@ Thank you for learning. Celebrate life.
         * Power Query-m
         * Power BI
         * Power Automate for Desktop
-
+***
+I'm learning md files.
 - [ ] Beef
 - [ ] Chicken
+
+<https://github.com/DEmodoriGatsuO/VisualBasicforApplications>
+
+*DemodoriGatsuo*
+
+**Japanese People**
+
+***I Love My Family***
+
+![My Icon](https://twitter.com/DemodoriGatsuo/photo)
+
+~~I Don't Like ×××~
+
+# My cheat tools
+## Header comment
+### test
+`Dim i as integer`
+`.md`
+
+### Visual Basic for Application
+
+```html:VBA_Comment
+'Project Name    : --
+'File Name       : --
+'Feature         : --
+'Creation Date   : yyyy.MM.dd
+'Programming language used:
+'' 
+'Author          : DEmodoriGatsuO https://github.com/DEmodoriGatsuO
+'Twitter         : https://twitter.com/DemodoriGatsuo Follow Me!
+'Sorry           : I like English. But I can't use English.
+
+'Copyright (c) 2022, Tech Lovers. All rights reserved
+'I can't use English, so I'll write in Japanese from now on.
+
+```
+
+### Google Apps Script or JavaScript
+
+```html:GASorJS_Comment
+// Copyright (c) 2022, Tech Lovers. All rights reserved
+// Project Name    : --
+// Module  Name    : --
+// Feature         : --
+// Creation Date   : yyyy.MM.dd
+// Programming language used: Google Apps Script or JavaScript 
+// Author          : DEmodoriGatsuO https://github.com/DEmodoriGatsuO
+// Twitter         : https://twitter.com/DemodoriGatsuo Follow Me!
+// Sorry           : I like English. But I can't use English.
+
+/**
+ * @enum {string}
+ */
+ ```
+
+ ### Python
+ 
