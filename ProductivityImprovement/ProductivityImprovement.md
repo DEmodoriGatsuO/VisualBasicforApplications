@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Productivity Memo
 ## Profile
 ### I am a Apprentice Programmer.
@@ -85,3 +84,70 @@ I'm learning md files.
 
  ### Python
  
+ ```html:Python_Comment_Module
+ """ Module  Name
+* Copyright (c) 2022, Tech Lovers. All rights reserved
+* Project Name    : --
+* Feature         : --
+* Creation Date   : yyyy.MM.dd
+* Programming language used: Python
+* Author          : DEmodoriGatsuO https://github.com/DEmodoriGatsuO
+* Twitter         : https://twitter.com/DemodoriGatsuo Follow Me!
+* Sorry           : I like English. But I can't use English.
+
+
+Todo:
+    
+    * import ---
+    * import ---
+
+"""
+```
+
+ ```html:Python_Comment_class
+    """class title
+
+    Description
+    *
+    *
+
+    Attributes:
+        name (type): Description
+        name (type): Description
+
+    """
+```
+
+ ```html:Python_Comment_def
+    """def name
+
+    Description
+    *
+    *
+
+        Args:
+            - name : type : description
+            - name : type : description
+
+        Returns:
+            - name : type : description
+
+        Raises:
+            - error : description
+
+        Yields:
+            return type: description
+
+        Examples:
+
+            -
+
+            >>> ---- (argv1, argv2)
+               ans
+
+        Note:
+            -
+            -
+
+    """
+```
