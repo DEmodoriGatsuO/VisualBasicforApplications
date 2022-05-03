@@ -26,7 +26,7 @@ Sub getFileList()
     Dim i            As Long    '配列用 一次元インデックス
     Dim j            As Long    '配列用 二次元インデックス
     
-    '1. ファイルダイアログを開いて一覧化するフォルダをセンタk数る
+    '1. ファイルダイアログを開いて一覧化するフォルダを選択する
     With Application.FileDialog(msoFileDialogFolderPicker)
         Select Case .Show
             Case True: strPathName = .SelectedItems(1)
