@@ -16,8 +16,9 @@ Option Explicit
 'GetFileList Main Module
 '==================================
 Sub getFileList()
+    
+    '----定数・変数一覧
     Const cnsDir     As String = "\*.*" '拡張子
-    Const colKey     As String = "status" 'getPathByPickerの戻り値を判断するために設けるkey
     Dim dirCol       As New Collection    'ファイルのフルパスを一度全て格納するコレクション
     Dim strPathName  As String  'FileのPath
     Dim strFileName  As String  'FileのName
