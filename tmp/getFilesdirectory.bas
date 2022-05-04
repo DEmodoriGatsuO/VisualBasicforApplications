@@ -15,7 +15,7 @@ Sub getFilesdirectory()
     If strDirectory = "" Then Exit Sub
     strPathName = Dir(strDirectory & filesDirectory, vbNormal)
     myCol.Add "Directorys"
-    Do While strPathName <> "" ' ƒtƒ@ƒCƒ‹‚ªŒ©‚Â‚©‚ç‚È‚­‚È‚é‚Ü‚ÅLoop
+    Do While strPathName <> "" ' ãƒ•ã‚¡ã‚¤ãƒ«ãŒè¦‹ã¤ã‹ã‚‰ãªããªã‚‹ã¾ã§Loop
         myCol.Add strPathName
         strPathName = Dir()
     Loop
