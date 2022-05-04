@@ -38,7 +38,7 @@ Sub SummarizeOneSheetAllData()
 End Sub
 
 '==================================
-'Folder‚Ìˆê——‚ğƒRƒŒƒNƒVƒ‡ƒ“‚ÉŠi”[‚·‚éŠÖ”
+'Folderã®ä¸€è¦§ã‚’ã‚³ãƒ¬ã‚¯ã‚·ãƒ§ãƒ³ã«æ ¼ç´ã™ã‚‹é–¢æ•°
 '==================================
 Private Function getPathByPicker() As Collection
 
