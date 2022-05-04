@@ -34,7 +34,7 @@ Microsoft Excelがあれば誰でも使えるよ！嬉しいね！
 * https://twitter.com/DemodoriGatsuo Follow Me!
 
 # License
-'Copyright (c) 2022, Excel Lovers. All rights reserved
+Copyright (c) 2022, Excel Lovers. All rights reserved
 
 Thank you for @Cpp_Learning "https://cpp-learning.com/profile/"
 This project is not Confidential.
