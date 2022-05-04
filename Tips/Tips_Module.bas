@@ -2,7 +2,7 @@ Attribute VB_Name = "Tips_Module"
 Option Explicit
 'Project Name    : Excel VBA Tips
 'File Name       : Tips_Module.bas
-'Feature         : ‘åD‚«‚È¬‹Z‚ğƒAƒbƒv‚µ‚Ä‚¢‚«‚Ü‚·!(^^)!
+'Feature         : å¤§å¥½ããªå°æŠ€ã‚’ã‚¢ãƒƒãƒ—ã—ã¦ã„ãã¾ã™!(^^)!
 'Creation Date   : 2022.05.04 - Updated from time to time
 'Programming language used:
 '' Visual Basic for Application
@@ -13,41 +13,41 @@ Option Explicit
 'I can't use English, so I'll write in Japanese from now on.
 
 '==================================
-'Tips@ƒeƒLƒXƒgƒtƒ@ƒCƒ‹‚É•¶š—ño—Í ˆø”1‚ÍƒpƒXAˆø”2‚Í•¶š—ñ
+'Tipsã€€ãƒ†ã‚­ã‚¹ãƒˆãƒ•ã‚¡ã‚¤ãƒ«ã«æ–‡å­—åˆ—å‡ºåŠ› å¼•æ•°1ã¯ãƒ‘ã‚¹ã€å¼•æ•°2ã¯æ–‡å­—åˆ—
 '==================================
 Private Sub outputTextFile(targetPath, txt)
-    'QÆİ’è‘Îô‚Ì‚½‚ßCreateObjectÌ—p
-    'ƒVƒFƒ‹‚ğ‚½‚½‚­€”õ‚ğ‚·‚é
+    'å‚ç…§è¨­å®šå¯¾ç­–ã®ãŸã‚CreateObjectæ¡ç”¨
+    'ã‚·ã‚§ãƒ«ã‚’ãŸãŸãæº–å‚™ã‚’ã™ã‚‹
     Dim wsh
     Set wsh = CreateObject("Wscript.Shell")
     
-    '‘‚«‚İƒ‚[ƒhiŠù‘¶‚ÌƒpƒX‚Ìƒtƒ@ƒCƒ‹‚Íã‘‚«AƒpƒX‚ª–³‚¢ê‡‚ÍV‹Kì¬‚ÅƒeƒLƒXƒgƒtƒ@ƒCƒ‹‘‚«o‚µ
+    'æ›¸ãè¾¼ã¿ãƒ¢ãƒ¼ãƒ‰ï¼ˆæ—¢å­˜ã®ãƒ‘ã‚¹ã®ãƒ•ã‚¡ã‚¤ãƒ«ã¯ä¸Šæ›¸ãã€ãƒ‘ã‚¹ãŒç„¡ã„å ´åˆã¯æ–°è¦ä½œæˆã§ãƒ†ã‚­ã‚¹ãƒˆãƒ•ã‚¡ã‚¤ãƒ«æ›¸ãå‡ºã—
     Open targetPath For Output As #1
         Print #1, txt
     Close #1
     
-    'ƒEƒCƒ“ƒhƒE‚ÌÅ‘O–Ê‚ÉƒeƒLƒXƒgƒtƒ@ƒCƒ‹‚ğ•\¦
+    'ã‚¦ã‚¤ãƒ³ãƒ‰ã‚¦ã®æœ€å‰é¢ã«ãƒ†ã‚­ã‚¹ãƒˆãƒ•ã‚¡ã‚¤ãƒ«ã‚’è¡¨ç¤º
     wsh.Run targetPath, 3
     Set wsh = Nothing
     
 End Sub
 '==================================
-'Tips@ƒtƒ@ƒCƒ‹ƒT[ƒo[‚ÌƒJƒŒƒ“ƒgƒfƒBƒŒƒNƒgƒŠ‚ğİ’è‚·‚é
+'Tipsã€€ãƒ•ã‚¡ã‚¤ãƒ«ã‚µãƒ¼ãƒãƒ¼ã®ã‚«ãƒ¬ãƒ³ãƒˆãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã‚’è¨­å®šã™ã‚‹
 '==================================
 Private Sub command_cd(argv)
-    'QÆİ’è‘Îô‚Ì‚½‚ßCreateObjectÌ—p
+    'å‚ç…§è¨­å®šå¯¾ç­–ã®ãŸã‚CreateObjectæ¡ç”¨
     'command cd
     With CreateObject("WScript.Shell")
         .CurrentDirectory = argv
     End With
 End Sub
 '==================================
-'Tips@ƒAƒNƒeƒBƒuƒ[ƒNƒuƒbƒN‚Ì‘SƒV[ƒg‚Ì—ñ•’²®
+'Tipsã€€ã‚¢ã‚¯ãƒ†ã‚£ãƒ–ãƒ¯ãƒ¼ã‚¯ãƒ–ãƒƒã‚¯ã®å…¨ã‚·ãƒ¼ãƒˆã®åˆ—å¹…èª¿æ•´
 '==================================
 Sub activeworkbook_allSheets_columnsSizeAutofit()
     Dim ws  As Worksheet
     Dim Ans As String: _
-            Ans = MsgBox(ActiveWorkbook.Name & " ‚Ì‘S‚Ä‚ÌƒV[ƒg‚Ì—ñ•’²®‚ğs‚¢‚Ü‚·B", vbInformation + vbYesNo, "Question")
+            Ans = MsgBox(ActiveWorkbook.Name & " ã®å…¨ã¦ã®ã‚·ãƒ¼ãƒˆã®åˆ—å¹…èª¿æ•´ã‚’è¡Œã„ã¾ã™ã€‚", vbInformation + vbYesNo, "Question")
 
     If Ans = vbNo Then Exit Sub
 
@@ -62,7 +62,7 @@ Sub activeworkbook_allSheets_columnsSizeAutofit()
     End With
 End Sub
 '==================================
-'Tips@’l‚ª0‚à‚µ‚­‚Í‹ó”’s‚ÌˆêŠ‡íœ
+'Tipsã€€å€¤ãŒ0ã‚‚ã—ãã¯ç©ºç™½è¡Œã®ä¸€æ‹¬å‰Šé™¤
 '==================================
 Sub ZeroValue_Blank_CellsEntireRowDelete()
 
@@ -84,7 +84,7 @@ Sub ZeroValue_Blank_CellsEntireRowDelete()
     
 End Sub
 '==================================
-'Tips@ƒAƒNƒeƒBƒuƒ[ƒNƒuƒbƒN‚Ì‘SƒV[ƒg‚ÌƒJ[ƒ\ƒ‹‚ğA1‚Éİ’è
+'Tipsã€€ã‚¢ã‚¯ãƒ†ã‚£ãƒ–ãƒ¯ãƒ¼ã‚¯ãƒ–ãƒƒã‚¯ã®å…¨ã‚·ãƒ¼ãƒˆã®ã‚«ãƒ¼ã‚½ãƒ«ã‚’A1ã«è¨­å®š
 '==================================
 Sub ActiveteA1()
     Dim ws As Worksheet
@@ -105,7 +105,7 @@ Sub ActiveteA1()
 
 End Sub
 '==================================
-'Tips@ƒAƒNƒeƒBƒuƒ[ƒNƒuƒbƒN‚Ì‘SƒV[ƒg‚ÌƒpƒXƒ[ƒh‚ğ“K“–‚Éİ’è‚·‚é
+'Tipsã€€ã‚¢ã‚¯ãƒ†ã‚£ãƒ–ãƒ¯ãƒ¼ã‚¯ãƒ–ãƒƒã‚¯ã®å…¨ã‚·ãƒ¼ãƒˆã®ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰ã‚’é©å½“ã«è¨­å®šã™ã‚‹
 '==================================
 Sub AllSheetProtect()
     Dim inp    As String: inp = InputBox("Password", "Password", "text")
@@ -118,7 +118,7 @@ Sub AllSheetProtect()
     Next ws
 End Sub
 '==================================
-'Tips@‘I‘ğ‚µ‚½”ÍˆÍ‚Ì—ñ‚ÌƒAƒ‹ƒtƒ@ƒxƒbƒg‚ğ•Ô‚· *:*
+'Tipsã€€é¸æŠã—ãŸç¯„å›²ã®åˆ—ã®ã‚¢ãƒ«ãƒ•ã‚¡ãƒ™ãƒƒãƒˆã‚’è¿”ã™ *:*
 '==================================
 Sub getColumnsAddress()
 
