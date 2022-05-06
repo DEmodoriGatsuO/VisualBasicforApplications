@@ -1,9 +1,0 @@
-let
-    Refer_Original_Data = #"Original Data",
-    Select_Columns = Table.SelectColumns(Refer_Original_Data,{"index" , "return value"}),
-    Filter_Replace_Rows = Table.SelectRows(Select_Columns, each ([return value] <> null)),
-    No_need_LastRow = Table.RemoveLastN(Filter_Replace_Rows,1),
-    Add_For_InputColumn = Table.AddColumn(No_need_LastRow, "replace", each null),
-    NameChange_return_value = Table.RenameColumns(Add_For_InputColumn,{{"return value", "pattern"}})
-in
-    NameChange_return_value
