@@ -1,11 +1,1 @@
-let
-    Source = Table.FromColumns({Lines.FromBinary(File.Contents("***パスを入れてね、txt限定***"), null, null, 65001)}),
-    Add_declareColumn = Table.AddColumn(Source, "declare", each if [Column1] = "let" then "let" else if [Column1] = "in" then "in" else null),
-    Add_ForSplitColumn = Table.AddColumn(Add_declareColumn, "function column", each if [declare] = null then [Column1] else null),
-    Split_Columns_return_value_and_call_function = Table.SplitColumn(Add_ForSplitColumn, "function column", Splitter.SplitTextByEachDelimiter({"="}, QuoteStyle.None, false), {"return value", "call function"}),
-    Set_Data_type_return_value_and_call_function = Table.TransformColumnTypes(Split_Columns_return_value_and_call_function,{{"return value", type text}, {"call function", type text}}),
-    Select_Columns = Table.SelectColumns(Set_Data_type_return_value_and_call_function,{"declare", "return value", "call function"}),
-    Trim_Columns_return_value_and_call_function = Table.TransformColumns(Select_Columns,{{"return value", Text.Trim, type text}, {"call function", Text.Trim, type text}}),
-    Add_indexColumn = Table.AddIndexColumn(Trim_Columns_return_value_and_call_function, "index", 1, 1, Int64.Type)
-in
-    Add_indexColumn
+Enter the code you want to convert
