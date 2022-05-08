@@ -34,6 +34,10 @@ Sub main()
     Dim msg             As String: msg = MsgBox("Are you sure you want to run?", vbYesNo + vbInformation, "Confirmation") '作業開始の確認
     Dim output_txt_Path As String: output_txt_Path = ThisWorkbook.Path & "\editor_text.txt" '相対パスでこのWorkbookがあるフォルダにテキストファイル(.txt)を作成
     Dim write_TXT       As String: write_TXT = replacePowerQuery_M '文字列の作成はPrivate Function replacePowerQuery_Mにて作成
+    '参照設定対策のためCreateObject採用
+    'シェルをたたく準備をする
+    Dim wsh
+    Set wsh = CreateObject("Wscript.Shell")
     
     '1. 作業開始の確認
     If msg = vbNo Then Exit Sub
@@ -45,6 +49,10 @@ Sub main()
     
     '3. 終了メッセージ
     MsgBox "Work is complete!!", vbInformation, "Success"
+
+    '4. ウインドウの最前面にテキストファイルを表示
+    wsh.Run output_txt_Path, 3
+    Set wsh = Nothing
 
 End Sub
 '詳細エディター用変換
